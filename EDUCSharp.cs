@@ -282,7 +282,7 @@ namespace EDUCSharpNamespace
                 {
                     double dMegabytes = (double)( (double) sDirTotal.qwMegabytes + ( (double) sDirTotal.qwBytes / (double) MEGABYTE ) );
 
-                    string szOutput = String.Format( "{0,10:##0.00} Megabytes in {1}.\n", dMegabytes, szStartDirectory );
+                    string szOutput = String.Format( "{0,12:##0.00} Megabytes in {1}.\n", dMegabytes, szStartDirectory );
                     
                     Console.Write( szOutput );
                 }
@@ -455,7 +455,7 @@ namespace EDUCSharpNamespace
             { 
                 double dMegabytes = (double)( (double) sTotalBytes.qwMegabytes + ( (double) sTotalBytes.qwBytes / (double) MEGABYTE ) );
                     
-                string szOutput = String.Format( "{0,10:##0.00} Megabytes in {1}.\n", dMegabytes, P.szStartDirectory );
+                string szOutput = String.Format( "{0,12:##0.00} Megabytes in {1}.\n", dMegabytes, P.szStartDirectory );
                     
                 Console.Write( szOutput );
             }
