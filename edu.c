@@ -3,7 +3,7 @@
   EDU - Extended Disk Usage                                 ( A better 'du' )
 
   Author: Kenneth DeGrant 
-          kdegrant@triad.rr.com
+          ken.degrant@gmail.com
 
   In short, EDU calculates disk usage by directory.
 
